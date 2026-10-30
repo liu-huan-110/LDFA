@@ -106,7 +106,7 @@ The following checkpoint filenames are used in this README. **Confirm the files 
 | `weights/best_hit_uav.pt` | HIT-UAV | mAP50 **83.50%**, mAP50:95 **53.60%** |
 | `weights/best_visdrone.pt` | VisDrone2019 | mAP50 **38.24%**, mAP50:95 **22.04%** |
 
-
+These are **dataset-trained checkpoints**, not generic pretraining weights. If the checkpoint files are too large for ordinary Git, provide a working GitHub Release or other public download link and update this table.
 
 ## 4. Training and evaluation
 
