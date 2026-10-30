@@ -10,7 +10,7 @@ LDFA-DETR is built on **Ultralytics RT-DETR** and integrates three components:
 
 The manuscript evaluates LDFA-DETR primarily on the **HIT-UAV infrared** dataset and additionally on the **VisDrone2019 visible-light** detection dataset. The models for these two datasets are trained and evaluated **separately**; the VisDrone2019 evaluation is **not** a zero-shot infrared-to-visible transfer experiment.
 
-# 1. Environment and installation
+## 1. Environment and installation
 
 ### Reported experimental environment
 
