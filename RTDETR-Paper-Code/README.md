@@ -6,7 +6,7 @@ LDFA-DETR is built on **Ultralytics RT-DETR** and integrates three components:
 
 - **LDFE-Net** — a lightweight feature-extraction backbone using dynamic multi-shape depthwise convolutions.
 - **ASTE** — an adaptive sparse Transformer enhancement module for intra-scale feature refinement, incorporating existing mechanisms such as ASSA, DyT, Mona, and SEFN.
-- **GPMF** — gated parallel multi-scale fusion for cross-scale interaction, 
+- **GPMF** — gated parallel multi-scale fusion for cross-scale interaction, including multi-dilation processing and channel-gated up-/downsampling.
 
 The manuscript evaluates LDFA-DETR primarily on the **HIT-UAV infrared** dataset and additionally on the **VisDrone2019 visible-light** detection dataset. The models for these two datasets are trained and evaluated **separately**; the VisDrone2019 evaluation is **not** a zero-shot infrared-to-visible transfer experiment.
 
