@@ -4,6 +4,7 @@ from ..modules.conv import Conv, ConvTranspose
 
 __all__ = ['PMC', 'CPMC', 'CGPU', 'CGPD']
 
+
 class PMC(nn.Module):
     def __init__(self, inc, ratio=[1, 2, 3]) -> None:
         super().__init__()
