@@ -16,5 +16,5 @@ if __name__ == '__main__':
                 # resume='', # last.pt path
                 patience=0,
                 project='runs/train',
-                name='LDFA-DETR',
+                name='exp',
                 )
