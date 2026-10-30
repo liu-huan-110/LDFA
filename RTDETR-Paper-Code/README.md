@@ -173,6 +173,6 @@ Ultralytics distributes its code under **AGPL-3.0 or an Enterprise license**, de
 
 If this repository supports your research, please cite the corresponding manuscript when an appropriate public citation becomes available:
 
-> Liu H, Lu Y, Xu H. *LDFA-DETR: A Lightweight Dynamic Feature Aggregation Detector for Real-Time UAV Infrared Target Detection.* Manuscript submitted to *The Journal of Supercomputing*.
+
 
 **A journal volume, pages, DOI, or formal BibTeX record will be added only after publication details are available.**\
