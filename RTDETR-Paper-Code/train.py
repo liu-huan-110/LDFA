@@ -5,7 +5,7 @@ from ultralytics import RTDETR
 
 if __name__ == '__main__':
     model = RTDETR('ultralytics/cfg/models/rt-detr/LDFA-DETR.yaml')
-
+    # model.load('') # loading pretrain weights
     model.train(data='hit-uav/dataset.yaml',
                 cache=False,
                 imgsz=640,
