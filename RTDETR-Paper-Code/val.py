@@ -38,7 +38,7 @@ if __name__ == '__main__':
         print('-'*20 + '论文上的数据以以下结果为准' + '-'*20)
         print('-'*20 + '论文上的数据以以下结果为准' + '-'*20)
         print('-'*20 + '论文上的数据以以下结果为准' + '-'*20)
-
+print('-'*20 + '论文上的数据以以下结果为准' + '-'*20)
         model_info_table = PrettyTable()
         model_info_table.title = "Model Info"
         model_info_table.field_names = ["GFLOPs", "Parameters", "前处理时间/一张图", "推理时间/一张图", "后处理时间/一张图", "FPS(前处理+模型推理+后处理)", "FPS(推理)", "Model File Size"]
