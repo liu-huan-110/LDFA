@@ -1,4 +1,3 @@
-# Ultralytics YOLO 🚀, AGPL-3.0 license
 # Default training settings and hyperparameters for medium-augmentation COCO training
 
 task: detect  # (str) YOLO task, i.e. detect, segment, classify, pose
