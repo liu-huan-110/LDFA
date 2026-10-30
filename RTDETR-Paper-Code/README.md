@@ -45,7 +45,7 @@ python -c "import ultralytics; print(ultralytics.__file__)"
 
 The `pip install -e .` step applies **only if** the repository contains the required packaging files. Record the exact Ultralytics commit/version and dependency versions used for the released experiments in `requirements.txt` or a separate environment file.
 
-# 2. Datasets
+## 2. Datasets
 
 **Dataset images and annotations are not redistributed in this repository.** Download them from their original sources and convert annotations to the format expected by the training scripts.
 
