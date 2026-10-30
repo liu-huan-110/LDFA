@@ -13,7 +13,7 @@ if __name__ == '__main__':
                 batch=4,
                 workers=4,
                 # device='0,1', # 指定显卡和多卡训练
-               
+                # resume='', # last.pt path
                 patience=0,
                 project='runs/train',
                 name='exp',
