@@ -12,7 +12,7 @@ if __name__ == '__main__':
                 epochs=200,
                 batch=4,
                 workers=4,
-                # device='0,1', # 指定显卡和多卡训练参考<使用教程.md>下方常见错误和解决方案
+                # device='0,1', # 指定显卡和多卡训练
                 # resume='', # last.pt path
                 patience=0,
                 project='runs/train',
